@@ -51,9 +51,9 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m Bienvenue sur le blog d'un apprentie développeur au sein de la web@cademie by Epitech  spécialiser dans tous ce qui touche de prés
-          ou de loin à Javascript. Au travers de ce blog j'essayerais de vous partager réguliérements les quelque connaisance que j'ai pu acquérir 
-          pendant mes 2 années de travaux.
+          Bienvenue sur le blog d&apos;un apprentie développeur au sein de la web@cademie by Epitech spécialiser dans
+          tous ce qui touche de prés ou de loin à Javascript. Au travers de ce blog j&apos;essayerais de vous partager
+          réguliérements les quelque connaisance que j&apos;ai pu acquérir pendant mes 2 années de travaux.
         </p>
         <Link to="/contact">
           <Button big>
