@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import styled from 'styled-components'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 import { Layout, Article, Wrapper, Button, SectionTitle } from '../components'
 
@@ -51,8 +51,9 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          I&apos;m Bienvenue sur le blog d'un apprentie développeur au sein de la web@cademie by Epitech  spécialiser dans tous ce qui touche de prés
+          ou de loin à Javascript. Au travers de ce blog j'essayerais de vous partager réguliérements les quelque connaisance que j'ai pu acquérir 
+          pendant mes 2 années de travaux.
         </p>
         <Link to="/contact">
           <Button big>
