@@ -1,7 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
+import { FaJsSquare } from 'react-icons/fa';
 
 import { Layout, Article, Wrapper, Button, SectionTitle } from '../components'
 
@@ -49,11 +51,12 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>Hi.</h1>
+        <h1>Hi! 👋</h1>
         <p>
-          Bienvenue sur le blog d&apos;un apprentie développeur au sein de la web@cademie by Epitech spécialiser dans
-          tous ce qui touche de prés ou de loin à Javascript. Au travers de ce blog j&apos;essayerais de vous partager
-          réguliérements les quelque connaisance que j&apos;ai pu acquérir pendant mes 2 années de travaux.
+          Bienvenue sur le blog d'un apprentie développeur de la web@cademie by Epitech spécialiser 
+          dans tout ce qui touche de prés ou de loin à <FaJsSquare color="yellow"/>.
+          A travers ce blog j'essayerais de partager avec vous les quelque connaisances
+          que j'ai pu acquérir pendant mes 2 années de travaux.
         </p>
         <Link to="/contact">
           <Button big>
