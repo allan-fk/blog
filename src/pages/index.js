@@ -54,7 +54,7 @@ const IndexPage = ({
         <h1>Hi! 👋</h1>
         <p>
           Bienvenue sur le blog d'un apprentie développeur de la web@cademie by Epitech spécialiser 
-          dans tout ce qui touche de prés ou de loin à <FaJsSquare color="yellow" style={{filter: `drop-shadow(black 7px 10px 0px)`}}/>.
+          dans tout ce qui touche de prés ou de loin à <FaJsSquare color="yellow" style={{filter: `drop-shadow(#d02e77 7px 12px 0px)`}}/> .
           A travers ce blog j'essayerais de partager avec vous les quelque connaisances
           que j'ai pu acquérir pendant mes 2 années de travaux.
         </p>
