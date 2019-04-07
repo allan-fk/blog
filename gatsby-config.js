@@ -1,4 +1,5 @@
 const config = require('./config')
+require('dotenv').config()
 
 const pathPrefiix = config.pathPrefix === '/' ? '' : config.pathPrefix
 const pathPrefix = "/blog"
@@ -9,6 +10,14 @@ module.exports = {
     siteUrl: config.siteUrl + pathPrefix,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `4myjdlg7oehz`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
